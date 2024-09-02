@@ -78,9 +78,17 @@ header h1 i {
   margin-bottom: 20px;
 }
 
+.card-title-custom {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+  background-color: beige;
+}
+
 .section-heading {
   padding-top: 70px; /* Adjust this value based on the height of your navbar */
   margin-top: -70px; /* Same value as padding-top, to counter the offset */
+
 }
 
 /* Price Section */

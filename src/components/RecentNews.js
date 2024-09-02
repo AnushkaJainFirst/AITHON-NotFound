@@ -39,7 +39,7 @@ const RecentNews = () => {
   return (
     <Card>
       <Card.Body>
-        <Card.Title>Recent Bitcoin News</Card.Title>
+        <Card.Title className='card-title-custom'>Recent Bitcoin News</Card.Title>
         {loading && <Spinner animation="border" />}
         {error && <Alert variant="danger">Error fetching news.</Alert>}
         {!loading && !error && (

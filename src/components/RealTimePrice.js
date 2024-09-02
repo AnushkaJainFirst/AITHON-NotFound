@@ -36,7 +36,7 @@ const RealTimePrice = () => {
   return (
     <Card>
       <Card.Body>
-        <Card.Title>Real-time Bitcoin Price</Card.Title>
+        <Card.Title className='card-title-custom'>Real-time Bitcoin Price</Card.Title>
         {loading && <Spinner animation="border" />}
         {error && <Alert variant="danger">Error fetching price.</Alert>}
         {price && <Card.Text style={{ fontSize: '2rem' }}>${price.toLocaleString()}</Card.Text>}

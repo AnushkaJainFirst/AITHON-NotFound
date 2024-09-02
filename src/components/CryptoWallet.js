@@ -79,7 +79,7 @@ const CryptoWallet = () => {
   return (
     <Card>
       <Card.Body>
-        <Card.Title>Crypto Wallet</Card.Title>
+        <Card.Title className='card-title-custom'>Crypto Wallet</Card.Title>
         <h5>Balances:</h5>
         <ul>
           {Object.keys(balance).map((crypto, index) => (

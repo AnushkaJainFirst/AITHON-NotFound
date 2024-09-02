@@ -55,7 +55,7 @@ const HistoricalTrends = () => {
   return (
     <Card>
       <Card.Body>
-        <Card.Title>Historical Bitcoin Price Trends (1 Year)</Card.Title>
+        <Card.Title className='card-title-custom'>Historical Bitcoin Price Trends (1 Year)</Card.Title>
         {loading && <Spinner animation="border" />}
         {error && <Alert variant="danger">Error fetching historical data.</Alert>}
         {!loading && !error && (

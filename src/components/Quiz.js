@@ -177,7 +177,7 @@ const Quiz = () => {
   return (
     <Card>
       <Card.Body>
-        <Card.Title>Bitcoin Quiz</Card.Title>
+        <Card.Title className='card-title-custom'>Bitcoin Quiz</Card.Title>
         <Form onSubmit={handleSubmit}>
           <Form.Group>
             <Form.Label>{questions[current].question}</Form.Label>
