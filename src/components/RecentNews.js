@@ -15,7 +15,7 @@ const RecentNews = () => {
         'https://newsapi.org/v2/everything',
         {
           params: {
-            q: 'bitcoin',
+            q: 'ethereum',
             language: 'en',
             sortBy: 'publishedAt',
             apiKey: API_KEY,
@@ -39,7 +39,7 @@ const RecentNews = () => {
   return (
     <Card>
       <Card.Body>
-        <Card.Title className='card-title-custom'>Recent Bitcoin News</Card.Title>
+        <Card.Title className='card-title-custom'>Recent Ethereum News</Card.Title>
         {loading && <Spinner animation="border" />}
         {error && <Alert variant="danger">Error fetching news.</Alert>}
         {!loading && !error && (

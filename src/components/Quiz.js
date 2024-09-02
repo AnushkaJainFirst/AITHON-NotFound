@@ -152,8 +152,8 @@ const Quiz = () => {
     return (
       <Card className="text-center">
         <Card.Body>
-          <Card.Title>Bitcoin Quiz</Card.Title>
-          <Card.Text>Test your knowledge about Bitcoin. Click the button below to start the quiz!</Card.Text>
+          <Card.Title>Ethereum Quiz</Card.Title>
+          <Card.Text>Test your knowledge about Ethereum. Click the button below to start the quiz!</Card.Text>
           <Button onClick={startQuiz} variant="primary">Start Quiz</Button>
         </Card.Body>
       </Card>
