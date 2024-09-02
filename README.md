@@ -40,13 +40,13 @@ The goal of this project is to create an engaging Bitcoin portal with the follow
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/crypto-portal-dummy.git
+   git clone https://github.com/AnushkaJainFirst/AITHON-NotFound
    ```
 
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd crypto-portal-dummy
+   cd AITHON-NotFound
    ```
 
 3. **Install Dependencies**
