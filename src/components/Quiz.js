@@ -4,104 +4,104 @@ import { Card, Button, Form, Alert } from 'react-bootstrap';
 const Quiz = () => {
   const questions = [
     {
-      question: 'What is Bitcoin, and how does it differ from traditional currencies?',
+      question: 'What is Ethereum?',
       options: [
-        "It's a digital currency",
-        "It's a commodity like gold",
-        "It's a physical coin used in some countries",
-        "It's a type of stock",
+        'A digital currency like Bitcoin',
+        'A platform for decentralized applications',
+        'A type of cloud storage',
+        'A programming language',
       ],
-      answer: "It's a digital currency",
+      answer: 'A platform for decentralized applications',
     },
     {
-      question: 'What technology underlies Bitcoin and ensures its transactions?',
+      question: 'What technology underlies Ethereum?',
       options: [
-        'Cloud Computing',
         'Blockchain',
         'Artificial Intelligence',
+        'Cloud Computing',
         'Quantum Computing',
       ],
       answer: 'Blockchain',
     },
     {
-      question: 'Which of the following is an advantage of using Bitcoin for transactions?',
+      question: 'What is the native cryptocurrency of the Ethereum network?',
       options: [
-        'High transaction fees',
-        'Speedy cross-border transactions',
-        'Full government control',
-        'Guaranteed value stability',
+        'Ether',
+        'Bitcoin',
+        'Litecoin',
+        'Ripple',
       ],
-      answer: 'Speedy cross-border transactions',
+      answer: 'Ether',
     },
     {
-      question: 'What is Bitcoin mining?',
+      question: 'What is a smart contract in Ethereum?',
       options: [
-        'Extracting digital coins from the internet',
-        'Verifying and adding transactions to the blockchain',
-        'Creating new Bitcoin by cracking complex codes',
-        'Trading Bitcoin on exchanges',
+        'A physical document signed with Ether',
+        'A digital contract executed on the blockchain',
+        'A legal agreement between parties',
+        'A method for securing transactions',
       ],
-      answer: 'Verifying and adding transactions to the blockchain',
+      answer: 'A digital contract executed on the blockchain',
     },
     {
-      question: 'What is the safest method to store Bitcoin?',
+      question: 'What is Ethereum 2.0?',
       options: [
-        'In a bank account',
-        'On a USB drive',
-        'In a digital wallet',
-        'In a cloud storage service',
+        'An upgrade to the Ethereum network to improve scalability and security',
+        'A new cryptocurrency created by Ethereum',
+        'A decentralized application on the Ethereum network',
+        'A programming language for developing smart contracts',
       ],
-      answer: 'In a digital wallet',
+      answer: 'An upgrade to the Ethereum network to improve scalability and security',
     },
     {
-      question: 'How does Bitcoin ensure the security of transactions?',
+      question: 'What is the purpose of Ethereum’s gas?',
       options: [
-        'Using encrypted QR codes',
-        'Through a centralized ledger',
-        'By requiring passwords for all transactions',
-        'Using cryptographic techniques on a decentralized ledger',
+        'To pay for transaction fees and computational work',
+        'To create new Ether',
+        'To store Ether securely',
+        'To trade Ether on exchanges',
       ],
-      answer: 'Using cryptographic techniques on a decentralized ledger',
+      answer: 'To pay for transaction fees and computational work',
     },
     {
-      question: 'What environmental concern is associated with Bitcoin mining?',
+      question: 'What is a Decentralized Autonomous Organization (DAO) in the context of Ethereum?',
       options: [
-        'Water pollution',
-        'High energy consumption',
-        'Deforestation',
-        'Noise pollution',
+        'A central entity controlling the Ethereum network',
+        'A type of cryptocurrency used for trading',
+        'An organization run by smart contracts without central control',
+        'A cloud storage service for Ethereum applications',
       ],
-      answer: 'High energy consumption',
+      answer: 'An organization run by smart contracts without central control',
     },
     {
-      question: 'Why is Bitcoin known for its price volatility?',
+      question: 'What is the Ethereum Virtual Machine (EVM)?',
       options: [
-        'It’s influenced by government policies',
-        'Limited supply and high market speculation',
-        'It’s backed by gold reserves',
-        'It’s a widely stable currency',
+        'A machine that mines Ethereum',
+        'A system that executes smart contracts and decentralized applications',
+        'A virtual currency used in Ethereum transactions',
+        'A platform for trading Ether',
       ],
-      answer: 'Limited supply and high market speculation',
+      answer: 'A system that executes smart contracts and decentralized applications',
     },
     {
-      question: 'Which of the following best describes the legal status of Bitcoin in most countries?',
+      question: 'What is a nonce in Ethereum transactions?',
       options: [
-        'It’s universally accepted as legal tender',
-        'It’s banned in most countries',
-        'It’s regulated differently depending on the country',
-        'It’s illegal to own or trade',
+        'A type of encryption used in transactions',
+        'A unique number to prevent double-spending',
+        'A method for creating new Ether',
+        'A tool for analyzing Ethereum blocks',
       ],
-      answer: 'It’s regulated differently depending on the country',
+      answer: 'A unique number to prevent double-spending',
     },
     {
-      question: 'What is a Bitcoin fork, such as Bitcoin Cash?',
+      question: 'What is the role of miners in Ethereum?',
       options: [
-        'A method to split a Bitcoin into smaller parts',
-        'A software update that creates a new version of Bitcoin',
-        'A tool for mining Bitcoin',
-        'A new currency created by duplicating the Bitcoin blockchain',
+        'To validate transactions and add them to the blockchain',
+        'To create new cryptocurrencies',
+        'To store Ether securely',
+        'To trade Ether on exchanges',
       ],
-      answer: 'A new currency created by duplicating the Bitcoin blockchain',
+      answer: 'To validate transactions and add them to the blockchain',
     },
   ];
 
@@ -177,7 +177,7 @@ const Quiz = () => {
   return (
     <Card>
       <Card.Body>
-        <Card.Title className='card-title-custom'>Bitcoin Quiz</Card.Title>
+        <Card.Title className='card-title-custom'>Etherium Quiz</Card.Title>
         <Form onSubmit={handleSubmit}>
           <Form.Group>
             <Form.Label>{questions[current].question}</Form.Label>
